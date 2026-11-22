@@ -140,7 +140,7 @@ function format_date($date){
                     </div>
                     <div class="col-lg-12">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="current_location" placeholder="Enter Current location">
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="current_location" placeholder="Localização atual">
                         </div>
                     </div>
                     <div class="col-lg-12">

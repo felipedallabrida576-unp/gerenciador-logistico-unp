@@ -1,13 +1,13 @@
 <?php
 
-include(__DIR__ . '/../function/connection.php');
+require_once __DIR__ . '/../function/function.php';
 
 header('Content-Type: application/json; charset=utf-8');
 
-$sql = "SELECT MONTH(data_created) AS mes, COUNT(*) AS total
+$sql = "SELECT MONTH(date_created) AS mes, COUNT(*) AS total
         FROM orders
-        WHERE YEAR(data_created) = YEAR(CURDATE())
-        GROUP BY MONTH(data_created)";
+        WHERE YEAR(date_created) = YEAR(CURDATE())
+        GROUP BY MONTH(date_created)";
 
 $result = $conn->query($sql);
 

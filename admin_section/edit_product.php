@@ -104,7 +104,7 @@ function format_date($date){
                                     <option value="Pendente">Pendente</option>
                                     <option value="Coletado">Coletado</option>
                                     <option value="Em espera">Em espera</option>
-                                    <option value="Saiu para entreg">Saiu para entrega</option>
+                                    <option value="Saiu para entrega">Saiu para entrega</option>
                                     <option value="A caminho">Em transito</option>
                                     <option value="Cancelado">Cancelado</option>
                                     <option value="Entregue">Entregue</option>

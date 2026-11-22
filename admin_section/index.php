@@ -122,7 +122,7 @@ if (!isset($_SESSION['username'])) {
 
 <canvas id="myAreaChart" width="100%" height="30"></canvas>
 
-<script src="assets/tracking_mounth.js"></script>
+<script src=".../admin-charts-all.js"></script>
 
 	  <!-- /.container-fluid-->
    	</div>
